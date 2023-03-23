@@ -1,6 +1,6 @@
-package com.interview.question6;
+package com.interview.question7;
 
-public class Extend {
+public class Question7 {
     public static void main(String[] args) {
         Base b = new Derived();
         b.foo();
@@ -18,6 +18,3 @@ class Derived extends Base {
         System.out.println("Derived's foo()");
     }
 }
-
-
-// due to the fact that static methods in Java are resolved at compile time based on the declared type of the variable, rather than the runtime type of the object.

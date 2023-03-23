@@ -1,6 +1,6 @@
-package com.interview.question5;
+package com.interview.question6;
 
-public class Question8 {
+public class Question6 {
     public static void main(String[] args) {
         Base b = new Derived();
         b.foo();
